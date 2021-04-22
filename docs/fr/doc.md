@@ -71,7 +71,7 @@ Ceci générera une balise HTML form avec une balise HTML select et des options 
 
 Installation via Composer :
 ```
-php composer.phar require dev-and-web/daw-php-pagination 3.0.*
+composer require dev-and-web/daw-php-pagination
 ```
 
 

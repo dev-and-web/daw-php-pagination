@@ -62,7 +62,7 @@ echo $pagination->perPage();
 
 Installation via Composer:
 ```
-php composer.phar require dev-and-web/daw-php-pagination 3.0.*
+composer require dev-and-web/daw-php-pagination
 ```
 
 

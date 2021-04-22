@@ -71,7 +71,7 @@ This will generate a form HTML tag with a select HTML tag and clickable options.
 
 Installation via Composer:
 ```
-php composer.phar require dev-and-web/daw-php-pagination 3.0.*
+composer require dev-and-web/daw-php-pagination
 ```
 
 
