@@ -1,0 +1,167 @@
+/* Style CSS of DAW PHP Pagination, and Style CSS of bootstrap 3.3.7 Pagination */
+
+
+/**
+ * @link     https://github.com/dev-and-web/daw-php-pagination
+ * @author   Stephen Damian <contact@devandweb.fr>
+ * @license  MIT License
+ */
+
+
+.center {
+    text-align: center;
+}
+
+
+/*** DAW PHP Pagination ***/
+ul.block-pagination {
+    margin: 15px 0 0 0;
+}
+
+ul.block-pagination > li {
+    display: inline-block;
+    margin: 2px;
+}
+
+ul.block-pagination li a,
+ul.block-pagination li.active {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    outline:none;
+}
+
+ul.block-pagination li a {
+    text-decoration: none;
+    padding: 7px;
+    background: #212121;
+    color: #fff;
+    -webkit-box-shadow: 0 0 1px #212121;
+    -moz-box-shadow: 0 0 1px #212121;
+    -o-box-shadow: 0 0 1px #212121;
+    -ms-box-shadow: 0 0 1px #212121;
+    box-shadow: 0 0 1px #212121;
+}
+ul.block-pagination li a:hover,
+ul.block-pagination li.active {
+    background: #ccc;
+    color: #212121;
+}
+
+ul.block-pagination li.active {
+    font-weight: bold;
+    padding: 7px;
+    -webkit-box-shadow: 0 0 2px #212121;
+    -moz-box-shadow: 0 0 2px #212121;
+    -o-box-shadow: 0 0 2px #212121;
+    -ms-box-shadow: 0 0 2px #212121;
+    box-shadow: 0 0 2px #212121;
+}
+/*** /DAW PHP Pagination ***/
+
+
+/*** DAW PHP Pagination - Per page ***/
+form#per-page {
+    margin-top: 25px;
+    text-align: center;
+}
+
+form#per-page label {
+    color: #6E6E6F;
+}
+
+form#per-page select {
+    background-color: #FAF9F9;
+    padding: 4px;
+    font-size: 0.92em;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 0 #DCDADA, 0 -1px #FAF9F9 inset;
+    -moz-box-shadow: 0 1px 0 #DCDADA, 0 -1px #FAF9F9 inset;
+    box-shadow: 0 1px 0 #DCDADA, 0 -1px #FAF9F9 inset;
+}
+form#per-page select:hover {
+    background-color: #ECEAEA;
+    transition: all 0.3s;
+}
+form#per-page select:focus {
+    background-color: #FAF9F9;
+    transition: all 0.3s;
+}
+/*** /DAW PHP Pagination - Per page ***/
+
+
+/*** Pagination (avec style de bootstrap 3.3) ***/
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 15px 0 0 0;
+    border-radius: 4px;
+}
+.pagination > li {
+    display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #585858;
+    text-decoration: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    z-index: 2;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #898989;
+    border-color: #898989;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #f9f9f9;
+    border-color: #ddd;
+}
+/*** /Pagination (avec style de bootstrap 3.3) ***/

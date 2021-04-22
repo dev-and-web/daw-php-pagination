@@ -1,0 +1,42 @@
+{
+    "name": "dev-and-web/daw-php-pagination",
+    "description": "PHP library of simple Pagination",
+    "type": "library",
+    "keywords": ["php","pagination","paginator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephen Damian",
+            "email": "contact@devandweb.fr",
+            "homepage": "https://www.devandweb.fr",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "contact@devandweb.fr",
+        "issues": "https://github.com/dev-and-web/daw-php-pagination/issues",
+        "source": "https://github.com/dev-and-web/daw-php-pagination",
+        "docs": "https://github.com/dev-and-web/daw-php-pagination/tree/master/docs/en"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.*"
+    },
+    "autoload": {
+        "psr-4" : {
+            "DawPhpPagination\\": "src/DawPhpPagination/"
+        }
+    },
+    "scripts": {
+        "tests": [
+            "php ./vendor/phpunit/phpunit/phpunit"
+        ],
+        "test-class": [
+            "php ./vendor/phpunit/phpunit/phpunit --filter"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
