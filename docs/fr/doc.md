@@ -29,12 +29,6 @@ echo $pagination->perPage();
 
 * PHP >= 7.4
 
-Si vous souhaitez une comptabilité avec PHP 7.0, vous pouvez utiliser la version 1.1 :
-[DAW PHP Pagination 1.1](https://github.com/dev-and-web/daw-php-pagination/tree/1.1)
-
-Si vous souhaitez une comptabilité avec PHP 7.1 ou PHP 7.2 ou PHP 7.3, vous pouvez utiliser la version 2.0 :
-[DAW PHP Pagination 2.0](https://github.com/dev-and-web/daw-php-pagination/tree/2.0)
-
 
 
 
